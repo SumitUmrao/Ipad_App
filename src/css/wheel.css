@@ -1,0 +1,74 @@
+.wheelcontainer{
+    
+     position: relative;
+     height: 220px;
+     width: 210px;
+     /* background-color: gray; */
+     margin: auto;
+     display: flex; 
+}
+
+.wheel{
+    border-radius: 50%;
+    background-color: rgb(31, 31, 30);
+    height: 220px;
+    width: 210px;
+    position: relative;
+    cursor: pointer;
+}
+
+.controll{
+    color: rgba(242, 242, 15, 0.926);
+    position: absolute;
+    font-weight: 900;
+}
+
+#menu{
+    left: 36%;
+    top: 5%;
+    font-weight: 900;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+
+}
+ 
+#forword{
+    right: 5%;
+    top: 45%;
+    font-size: 29px;
+    font-weight: 900;
+    height: 40px;
+    width: 40px;
+}
+
+#backword{
+    left: 5%;
+    top: 45%;
+    font-size: 29px;
+    font-weight: 900;
+    height: 40px;
+    width: 40px;
+}
+
+#pause{
+    left: 43%;
+    bottom: 5%;
+    font-size: 15px;
+    font-weight: 900;
+    height: 40px;
+    width: 40px;
+   
+}
+
+#blank{
+    background-color:grey;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    position: absolute;
+    left: 30%;
+    top: 29%;
+    cursor: pointer;
+
+}
